@@ -473,7 +473,7 @@ span.new_abbs{
  /* school opportunity  */
   .scholarship-section {
       background-color: #2a3f9f;
-      padding: 56px 40px;
+      padding: 60px 40px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -624,8 +624,8 @@ span.new_abbs{
 #alumniCarousel .owl-nav button span {
     color: #234192;
     background-color: #F8C300;
-    padding: 0px 20px;
-    font-size: 40px;
+    padding: 0px 16px;
+    font-size: 35px;
         border-radius: 10px;
             font-family: var(--font-primary);
   }
@@ -691,11 +691,12 @@ section.admission_section {
 
 .step h4{
        font-size: 22px;
-    color: #1a3d8f;
+    color: #234192;
     margin: 10px 0px;
     text-align: center;
     font-family: 'Rozha One';
     font-weight: 400;
+    line-height: 28px;
 }
 
 .step p{
@@ -776,6 +777,7 @@ section.admission_section {
     font-family: var(--font-secondary);
     font-size: 40px;
     color: #234192;
+    background:#D7DEF5;
     }
 
     .tab-btn.active {
@@ -805,7 +807,7 @@ section.admission_section {
     .prog-left h2 {
       font-family: var(--font-secondary);
       color: #234192;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 400;
     margin-bottom: 4px;
     text-align: justify;
@@ -820,17 +822,19 @@ section.admission_section {
     }
 
     .prog-left p {
-          font-size: 16px;
+          font-size: 18px;
     line-height: 1.75;
     margin-bottom: 14px;
     color: #2C3E50;
     }
 
     .prog-left .eligibility {
-      font-size: 0.88rem;
-      color: #3a3a3a;
-      line-height: 1.65;
+      font-size: 18px;
+      color: #231F20;
+      font-family: var(--font-third);
+      font-weight: 600;
       margin-top: 6px;
+
     }
 
     .prog-left .eligibility strong {
@@ -1048,6 +1052,9 @@ section.admission_section {
 
 /* mobile responsive  */
 @media (max-width: 1300px) {
+  .why-section{
+    margin-top:35px;
+  }
 .headline {
     width: 65%;
 }
@@ -1071,6 +1078,21 @@ section.admission_section {
     width: 380px;
 }
 }
+@media (max-width: 1100px) {
+      .headline {
+        width: 80%;
+    }
+    .enquiry-card{
+      width: 32%;
+    }
+    .student-image img {
+    width: 100%;
+}
+.student-image{
+  max-width: unset;
+}
+}
+
 @media (max-width: 990px) {
   .rankings-section{
         flex-wrap: wrap;
@@ -1114,17 +1136,20 @@ section.admission_section {
 .process{
     flex-direction: column;
   }
-}
-@media (max-width: 767px) {
+  #alumniCarousel button.owl-next{
+    right: 5%;
+  }
    .process-wrapper::before{
         position: unset;
   }
-  .enquiry-card{
-    width: 100%;
-  }
-  .step{
+   .step{
         margin-bottom: 30px;
             width: 100%;
+  }
+}
+@media (max-width: 767px) {
+    .enquiry-card{
+    width: 100%;
   }
 .hero{
     padding: 35px 30px;
