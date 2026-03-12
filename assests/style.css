@@ -207,7 +207,9 @@ p {
     }
 
     .submit-btn {
-      width: 100%;
+      width: 42%;
+    display: block;
+    margin: auto;
       padding: 12px;
       background: #001C54;
       color: #fff;
@@ -217,8 +219,7 @@ p {
       border: none;
       border-radius: 999px;
       cursor: pointer;
-      margin-bottom: 0;
-    }
+         }
     .submit-btn:hover { background: #0f1d4e; }
 
     /* scholarship strip */

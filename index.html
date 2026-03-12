@@ -78,7 +78,7 @@
       <div class="scholarship-strip">
         <p><span class="gear-icon"><img src="images/click.png" alt="clock"></span> Scholarship Seats Filling Fast</p>
         <div class="progress-bar-outer">
-          <div class="progress-bar-inner"></div>
+          <div class="progress-bar-inner" id="progressBar"></div>
         </div>
       </div>
     </div>
@@ -713,6 +713,30 @@
       });
     });
   </script>
+  <script>
+
+const startDate = new Date("2026-03-01").getTime(); 
+const endDate = new Date("2026-03-31T23:59:59").getTime();
+
+function updateProgressBar(){
+
+  const now = new Date().getTime();
+
+  const totalTime = endDate - startDate;
+  const elapsed = now - startDate;
+
+  let progress = (elapsed / totalTime) * 100;
+
+  if(progress > 100) progress = 100;
+  if(progress < 0) progress = 0;
+
+  document.getElementById("progressBar").style.width = progress + "%";
+}
+
+updateProgressBar();
+setInterval(updateProgressBar, 1000);
+
+</script>
 </body>
 
 </html>
