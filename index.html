@@ -1,742 +1,899 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABBS</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rozha+One&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assests/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ABBS</title>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Rozha+One&family=Roboto:wght@300;400;500;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="assests/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
-
-</head>
-
-<body>
-
-  <div class="navigation">
-    <div class="navigation-wrap">
-      <a class="logo-link w--current w-nav-brand" href="#" aria-current="page"><img alt="" class="logo-image"
-          src="images/logo_abbs.webp"></a>
-      <div class="hide-mobile">
-        <div class="align-items-center">
-         
-          <a class="primary-btn" href="#"> <img class="call_icom" src="images/call.png" alt="">
-            +910000000000</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section class="hero">
-    <!-- LEFT -->
-    <div class="hero-left">
-      <div class="badge">Apply Now! Secure Your Spot Today!</div>
-
-      <h1 class="headline">
-        Level Up Your <span class="highlight">Career</span>
-        with Industry-Driven
-        <span class="highlight">Programmes</span>
-      </h1>
-
-      <a class="cta-btn">MBA | PGDM</a>
-
-      <p class="accreditation-label">Accreditations &amp; Certifications</p>
-      <div class="accreditation-logos">
-        <!-- Replace src with real logo images if available -->
-        <div class="logo-circle"><img src="images/ac1.webp"
-            alt="Approved by All India Council for Technical Education (AICTE)"> </div>
-        <div class="logo-circle"><img src="images/ac2.webp"
-            alt="National Assessment and Accreditation Council (A Grade)"></div>
-        <div class="logo-circle"><img src="images/ac3.webp"
-            alt="Accredited by International Accreditation Council for Business Education"></div>
-        <div class="logo-circle"><img src="images/ac4.webp" alt="Accredited by SAQS"></div>
-        <div class="logo-circle"><img src="images/ac5.webp" alt="(AIU) Association of Indian Universities"> </div>
-      </div>
-    </div>
-
-    <!-- RIGHT: ENQUIRY CARD -->
-    <div class="enquiry-card">
-      <h3>ENQUIRE NOW</h3>
-
-      <input type="text" placeholder="Name*" />
-      <input type="tel" placeholder="Phone no*" />
-      <input type="email" placeholder="Email*" />
-
-      <div class="select-wrapper">
-        <select>
-          <option value="" disabled selected>Select Program*</option>
-          <option>MBA</option>
-          <option>PGDM</option>
-        </select>
-      </div>
-
-      <button class="submit-btn">Submit</button>
-
-      <div class="scholarship-strip">
-        <p><span class="gear-icon"><img src="images/click.png" alt="clock"></span> Scholarship Seats Filling Fast</p>
-        <div class="progress-bar-outer">
-          <div class="progress-bar-inner" id="progressBar"></div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <section class="stats-bar">
-
-    <!-- Stat 1 -->
-    <div class="stat-item">
-      <div class="stat-icon-placeholder">
-        <img src="images/hand1.webp" alt="Recruiters">
-      </div>
-      <div class="stat-text">
-        <span class="stat-number">160+</span>
-        <span class="stat-label">Recruiters</span>
-      </div>
-    </div>
-
-    <div class="stat-item">
-      <div class="stat-icon-placeholder">
-        <img src="images/hand2.webp" alt="Average CTC">
-      </div>
-      <span class="stat-number">7.6LPA</span>
-      <span class="stat-label">Average CTC</span>
-
-    </div>
-
-    <!-- Stat 3 -->
-    <div class="stat-item">
-      <div class="stat-icon-placeholder">
-        <img src="images/hand3.webp" alt="Highest CTC">
-      </div>
-      <div class="stat-text">
-        <span class="stat-number">22.5 LPA</span>
-        <span class="stat-label">Highest CTC</span>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- ranking section start here  -->
-  <section class="rankings-section">
-
-    <div class="rankings-left">
-      <h2>RANKINGS</h2>
-      <p>
-        Ranked among the finest, ABBS continues to set benchmarks in management
-        education. In GHRDC Ranking 2025 (Karnataka), it stands at
-        <strong>#5 Best Private B-School</strong> and
-        <strong>#2 Leading B-School</strong>. It is also recognised as a
-        <strong>Top Private B-School in South India</strong>, securing
-        <strong>18th Rank by BW BusinessWorld B-School Ranking 2025</strong>.
-      </p>
-
-
-      <div class="student-image">
-        <img src="images/ranking.webp" alt="RANKINGS">
-      </div>
-    </div>
-
-    <!-- RIGHT -->
-    <div class="rankings-right">
-
-      <div class="accreditation-item">
-        <div class="acc-logo">
-          <img src="images/ac1.webp" alt="Approved by All India Council for Technical Education (AICTE)">
-        </div>
-        <div class="acc-text">Approved by All India Council for Technical Education (AICTE)</div>
-      </div>
-
-      <div class="accreditation-item">
-        <div class="acc-logo">
-          <img src="images/ac2.webp" alt="National Assessment and Accreditation Council (A Grade)">
-        </div>
-        <div class="acc-text">National Assessment and Accreditation Council (A Grade)</div>
-      </div>
-
-      <div class="accreditation-item">
-        <div class="acc-logo">
-          <img src="images/ac3.webp" alt="Accredited by International Accreditation Council for Business Education">
-        </div>
-        <div class="acc-text">Accredited by International Accreditation Council for Business Education</div>
-      </div>
-
-      <div class="accreditation-item">
-        <div class="acc-logo">
-          <img src="images/ac4.webp" alt="Accredited by SAQS">
-        </div>
-        <div class="acc-text">Accredited by SAQS</div>
-      </div>
-
-      <div class="accreditation-item">
-        <div class="acc-logo">
-          <img src="images/ac5.webp" alt="(AIU) Association of Indian Universities">
-
-        </div>
-        <div class="acc-text">(AIU) Association of Indian Universities</div>
-      </div>
-
-    </div>
-
-  </section>
-  <!-- ranking section stop here  -->
-
-
-  <!-- section why start from here  -->
-  <section class="why-section">
-
-    <h2 class="why-heading">
-      Why choose <span class="new_abbs">ABBS?</span>
-    </h2>
-
-    <div class="cards-grid">
-
-      <!-- Card 1 -->
-      <div class="card">
-        <div class="card-icon">
-          <img src="images/why1.webp" alt="Faculty">
-        </div>
-        <h3 class="card-title">Faculty Who've Been There, Done That</h3>
-        <p class="card-desc">Learn from mentors with real boardroom experience, not just textbooks with insights that
-          truly prepare you.</p>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="card">
-        <div class="card-icon">
-          <img src="images/why2.webp" alt="Power-Packed Industry Collaborations">
-        </div>
-        <h3 class="card-title">Power-Packed Industry Collaborations</h3>
-        <p class="card-desc">Certifications and internships with KPMG, Grant Thornton and BSE give your CV instant
-          credibility.</p>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="card">
-        <div class="card-icon">
-          <img src="images/why3.webp" alt="Global Mindset, Real Exposure">
-        </div>
-        <h3 class="card-title">Global Mindset, Real Exposure</h3>
-        <p class="card-desc">International programmes and industry immersions that expand perspectives beyond borders.
-        </p>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="card">
-        <div class="card-icon">
-          <img src="images/why4.webp" alt="Campus That Builds Confidence">
-        </div>
-        <h3 class="card-title">Campus That Builds Confidence</h3>
-        <p class="card-desc">Clubs, leadership forums and modern infrastructure that shape personality alongside
-          academics.</p>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="card">
-        <div class="card-icon">
-          <img src="images/why5.webp" alt="Strong Placement Game">
-        </div>
-        <h3 class="card-title">Strong Placement Game</h3>
-        <p class="card-desc">Over 90% placement success with top recruiters hiring career-ready graduates.</p>
-      </div>
-
-      <!-- Card 6 -->
-      <div class="card">
-        <div class="card-icon">
-          <img src="images/why6.webp" alt="Student Exchange Programme">
-        </div>
-        <h3 class="card-title">Student Exchange Programme</h3>
-        <p class="card-desc">Opportunities with Daito Bunka University, Help University of Achievers and Rabat Business
-          School for a competitive International advantage that sets you apart.</p>
-      </div>
-
-    </div>
-  </section>
-  <!-- section why stop from here  -->
-
-  <!-- programm offered  -->
-  <section class="programs-section">
-    <h2>Programs Offered</h2>
-
-    <div class="tab-wrapper">
-
-        <!-- Tab Buttons -->
-      <div class="tab-buttons">
-        <button class="tab-btn active" data-tab="mba">MBA</button>
-        <button class="tab-btn" data-tab="pgdm">PGDM</button>
-      </div>
-
-      <!-- Tab Content -->
-      <div class="tab-content-wrapper">
-
-        <!-- MBA Tab -->
-        <div class="tab-pane active" id="tab-mba">
-
-          <div class="prog-left">
-            <h2>MBA Programme</h2>
-            <p class="duration">Duration: 2 Years</p>
-
-            <p>At ABBS, our MBA programme is designed to shape confident and future-ready leaders. As one of the leading
-              AICTE-approved and NAAC 'A' Grade institutions in Bangalore, we combine academic rigour with strong
-              industry integration to ensure students graduate career-ready.</p>
-
-            <p>Our MBA goes beyond classroom learning. Through internships, live projects, corporate interactions,
-              industry visits and case-based learning, students gain hands-on exposure to real business challenges. With
-              dual specialisation options, global immersion opportunities and value-added certifications, we prepare
-              graduates to thrive in dynamic corporate environments.</p>
-
-            <p>Backed by experienced faculty from academia and industry, students receive personalised mentoring and
-              strategic guidance throughout their journey. Our strong placement record, with leading MNCs, startups and
-              reputed organisations recruiting regularly, reflects our commitment to career outcomes.</p>
-
-            <p class="eligibility"><strong>Eligibility:</strong> Candidates must hold a recognised graduate degree
-              (10+2+3/4 pattern) with a minimum of 50% aggregate marks (45% for SC/ST/Cat I).</p>
+  <body>
+    <div class="navigation">
+      <div class="navigation-wrap">
+        <a class="logo-link w--current w-nav-brand" href="#" aria-current="page"
+          ><img alt="" class="logo-image" src="images/logo_abbs.webp"
+        /></a>
+        <div class="hide-mobile">
+          <div class="align-items-center">
+            <a class="primary-btn" href="#">
+              <img class="call_icom" src="images/call.png" alt="" />
+              +910000000000</a
+            >
           </div>
-
-          <div class="prog-right">
-            <div class="specializations-box">
-              <h3>Specializations Offered</h3>
-              <ul class="program-list">
-
-                <li>MBA in Finance</li>
-                <li>MBA in Marketing</li>
-                <li>MBA in HR</li>
-                <li>Logistics and <br> Supply Chain Management</li>
-                <li>Healthcare Management</li>
-                <li>Business Analytics</li>
-              </ul>
-
-            </div>
-
-            <div class="note-card">
-              <p>Join ABBS and earn an MBA that blends knowledge, experience and leadership excellence.</p>
-            </div>
-          </div>
-
         </div>
+      </div>
+    </div>
+    <section class="hero">
+      <!-- LEFT -->
+      <div class="hero-left">
+        <div class="badge">Apply Now! Secure Your Spot Today!</div>
 
-        <!-- PGDM Tab -->
-        <div class="tab-pane" id="tab-pgdm">
+        <h1 class="headline">
+          Level Up Your <span class="highlight">Career</span>
+          with Industry-Driven
+          <span class="highlight">Programmes</span>
+        </h1>
 
-          <div class="prog-left">
-            <h2>PGDM Programme</h2>
-            <p class="duration">Duration: 2 Years</p>
+        <a class="cta-btn">MBA | PGDM</a>
 
-            <p>The PGDM at ABBS is an industry-aligned, AICTE-approved programme designed to equip students with
-              advanced business acumen and leadership capabilities. It emphasises practical exposure and contemporary
-              management practices.</p>
-
-            <p>The programme integrates live industry projects, mentorship from seasoned professionals, and a curriculum
-              co-created with industry leaders to ensure graduates are workplace-ready from day one.</p>
-
-            <p>Students benefit from tie-ups with leading corporations, a robust alumni network and 100% placement
-              assistance. The PGDM is recognised and valued by top recruiters across sectors.</p>
-
-            <p class="eligibility"><strong>Eligibility:</strong> A recognised bachelor's degree with minimum 50% marks
-              (45% for SC/ST/Cat I). CAT / MAT / CMAT / GMAT scores preferred.</p>
+        <p class="accreditation-label">Accreditations &amp; Certifications</p>
+        <div class="accreditation-logos">
+          <!-- Replace src with real logo images if available -->
+          <div class="logo-circle">
+            <img
+              src="images/ac1.webp"
+              alt="Approved by All India Council for Technical Education (AICTE)"
+            />
           </div>
-
-          <div class="prog-right">
-            <div class="specializations-box">
-              <h3>Specializations Offered</h3>
-              <ul class="program-list">
-
-                <li>MBA in Finance</li>
-                <li>MBA in Marketing</li>
-                <li>MBA in HR</li>
-                <li>Logistics and <br> Supply Chain Management</li>
-                <li>Healthcare Management</li>
-                <li>Business Analytics</li>
-              </ul>
-            </div>
-
-            <div class="note-card">
-             <p>Join ABBS and earn a PGDM that opens doors to global opportunities and leadership roles.</p>
-            </div>
+          <div class="logo-circle">
+            <img
+              src="images/ac2.webp"
+              alt="National Assessment and Accreditation Council (A Grade)"
+            />
           </div>
-
-        </div>
-
-      </div><!-- end tab-content-wrapper -->
-    </div><!-- end tab-wrapper -->
-  </section>
-  <!-- programm offered end  -->
-
-
-  <!-- scholorship opportunity start from here  -->
-  <section class="scholarship-section">
-    <h2>Scholarship Opportunities</h2>
-
-    <div class="school_card">
-      <div class="school_card-image">
-
-        <div class="school_img">
-          <img src="images/scholor.webp" alt="">
+          <div class="logo-circle">
+            <img
+              src="images/ac3.webp"
+              alt="Accredited by International Accreditation Council for Business Education"
+            />
+          </div>
+          <div class="logo-circle">
+            <img src="images/ac4.webp" alt="Accredited by SAQS" />
+          </div>
+          <div class="logo-circle">
+            <img
+              src="images/ac5.webp"
+              alt="(AIU) Association of Indian Universities"
+            />
+          </div>
         </div>
       </div>
 
-      <div class="school-card-content">
-        <h3>Information on Scholarships</h3>
+      <!-- RIGHT: ENQUIRY CARD -->
+      <div class="enquiry-card">
+        <h3>ENQUIRE NOW</h3>
+
+        <input type="text" placeholder="Name*" />
+        <input type="tel" placeholder="Phone no*" />
+        <input type="email" placeholder="Email*" />
+
+        <div class="select-wrapper">
+          <select>
+            <option value="" disabled selected>Select Program*</option>
+            <option>MBA</option>
+            <option>PGDM</option>
+          </select>
+        </div>
+
+        <button class="submit-btn">Submit</button>
+
+        <div class="scholarship-strip">
+          <p>
+            <span class="gear-icon"
+              ><img src="images/click.png" alt="clock"
+            /></span>
+            Scholarship Seats Filling Fast
+          </p>
+          <div class="progress-bar-outer">
+            <div class="progress-bar-inner" id="progressBar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-bar">
+      <!-- Stat 1 -->
+      <div class="stat-item">
+        <div class="stat-icon-placeholder">
+          <img src="images/hand1.webp" alt="Recruiters" />
+        </div>
+        <div class="stat-text">
+          <span class="stat-number">160+</span>
+          <span class="stat-label">Recruiters</span>
+        </div>
+      </div>
+
+      <div class="stat-item">
+        <div class="stat-icon-placeholder">
+          <img src="images/hand2.webp" alt="Average CTC" />
+        </div>
+        <span class="stat-number">7.6LPA</span>
+        <span class="stat-label">Average CTC</span>
+      </div>
+
+      <!-- Stat 3 -->
+      <div class="stat-item">
+        <div class="stat-icon-placeholder">
+          <img src="images/hand3.webp" alt="Highest CTC" />
+        </div>
+        <div class="stat-text">
+          <span class="stat-number">22.5 LPA</span>
+          <span class="stat-label">Highest CTC</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ranking section start here  -->
+    <section class="rankings-section">
+      <div class="rankings-left">
+        <h2>RANKINGS</h2>
         <p>
-          Dream big without financial stress! ABBS offers merit-based scholarships
-          covering up to 50% of tuition fees for eligible students. Explore our scholarships
-          and maximise your opportunity.
+          Ranked among the finest, ABBS continues to set benchmarks in
+          management education. In GHRDC Ranking 2025 (Karnataka), it stands at
+          <strong>#5 Best Private B-School</strong> and
+          <strong>#2 Leading B-School</strong>. It is also recognised as a
+          <strong>Top Private B-School in South India</strong>, securing
+          <strong>18th Rank by BW BusinessWorld B-School Ranking 2025</strong>.
         </p>
-      </div>
-    </div>
-  </section>
 
-  <!-- scholorship opportunity start from here  -->
-
-
-  <!-- hiring partner start here  -->
-
-  <section class="hiring-section">
-    <h2>hiring partners</h2>
-
-    <div class="owl-carousel owl-theme" id="hiringCarousel">
-
-      <!-- Replace src values with your actual logo image paths -->
-
-      <div class="partner-item">
-        <img src="images/part1.webp" alt="Grant Thornton" />
+        <div class="student-image">
+          <img src="images/ranking.webp" alt="RANKINGS" />
+        </div>
       </div>
 
-      <div class="partner-item">
-        <img src="images/part2.webp" alt="Federal Bank" />
-      </div>
-
-      <div class="partner-item">
-        <img src="images/part3.webp" alt="BSE" />
-      </div>
-
-      <div class="partner-item">
-        <img src="images/part4.webp" alt="PhonePe" />
-      </div>
-
-      <div class="partner-item">
-        <img src="images/part5.webp" alt="J.P. Morgan" />
-      </div>
-
-      <div class="partner-item">
-        <img src="images/part6.webp" alt="EY" />
-      </div>
-
-    </div>
-  </section>
-  <!-- hiring partner stop here  -->
-
-
-  <!-- alumini section start from here  -->
-  <section class="alumni-section">
-    <h2>Alumni stories</h2>
-
-    <div class="owl-carousel owl-theme" id="alumniCarousel">
-
-      <!-- Slide 1 -->
-      <div class="alumni-card">
-        <div class="alumni-photo">
-          <div class="alumni-photo-placeholder">
-            <img src="images/story.webp" alt="">
+      <!-- RIGHT -->
+      <div class="rankings-right">
+        <div class="accreditation-item">
+          <div class="acc-logo">
+            <img
+              src="images/ac1.webp"
+              alt="Approved by All India Council for Technical Education (AICTE)"
+            />
+          </div>
+          <div class="acc-text">
+            Approved by All India Council for Technical Education (AICTE)
           </div>
         </div>
 
-        <div class="alumni-content">
-          <h3>BBA Aviation Management</h3>
-          <p class="designation">Probationary Officer, South Indian Bank</p>
-          <p>
-            I enjoyed my studies as a student in Acharya Bangalore B-School. I found my course "BBA
-            Aviation Management" extremely interesting. The independence the College gave me has
-            helped me to achieve success, as it enabled me to understand the importance of helping
-            to ensure that deadlines are handed on time.
+        <div class="accreditation-item">
+          <div class="acc-logo">
+            <img
+              src="images/ac2.webp"
+              alt="National Assessment and Accreditation Council (A Grade)"
+            />
+          </div>
+          <div class="acc-text">
+            National Assessment and Accreditation Council (A Grade)
+          </div>
+        </div>
+
+        <div class="accreditation-item">
+          <div class="acc-logo">
+            <img
+              src="images/ac3.webp"
+              alt="Accredited by International Accreditation Council for Business Education"
+            />
+          </div>
+          <div class="acc-text">
+            Accredited by International Accreditation Council for Business
+            Education
+          </div>
+        </div>
+
+        <div class="accreditation-item">
+          <div class="acc-logo">
+            <img src="images/ac4.webp" alt="Accredited by SAQS" />
+          </div>
+          <div class="acc-text">Accredited by SAQS</div>
+        </div>
+
+        <div class="accreditation-item">
+          <div class="acc-logo">
+            <img
+              src="images/ac5.webp"
+              alt="(AIU) Association of Indian Universities"
+            />
+          </div>
+          <div class="acc-text">(AIU) Association of Indian Universities</div>
+        </div>
+      </div>
+    </section>
+    <!-- ranking section stop here  -->
+
+    <!-- section why start from here  -->
+    <section class="why-section">
+      <h2 class="why-heading">
+        Why choose <span class="new_abbs">ABBS?</span>
+      </h2>
+
+      <div class="cards-grid">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-icon">
+            <img src="images/why1.webp" alt="Faculty" />
+          </div>
+          <h3 class="card-title">Faculty Who've Been There, Done That</h3>
+          <p class="card-desc">
+            Learn from mentors with real boardroom experience, not just
+            textbooks with insights that truly prepare you.
           </p>
         </div>
 
-        <!-- Optional small avatar -->
-        <div class="alumni-avatar-small">
-          <!-- <img src="images/alumni1-avatar.jpg" alt="Avatar" /> -->
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="card-icon">
+            <img
+              src="images/why2.webp"
+              alt="Power-Packed Industry Collaborations"
+            />
+          </div>
+          <h3 class="card-title">Power-Packed Industry Collaborations</h3>
+          <p class="card-desc">
+            Certifications and internships with KPMG, Grant Thornton and BSE
+            give your CV instant credibility.
+          </p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-icon">
+            <img src="images/why3.webp" alt="Global Mindset, Real Exposure" />
+          </div>
+          <h3 class="card-title">Global Mindset, Real Exposure</h3>
+          <p class="card-desc">
+            International programmes and industry immersions that expand
+            perspectives beyond borders.
+          </p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+          <div class="card-icon">
+            <img src="images/why4.webp" alt="Campus That Builds Confidence" />
+          </div>
+          <h3 class="card-title">Campus That Builds Confidence</h3>
+          <p class="card-desc">
+            Clubs, leadership forums and modern infrastructure that shape
+            personality alongside academics.
+          </p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card">
+          <div class="card-icon">
+            <img src="images/why5.webp" alt="Strong Placement Game" />
+          </div>
+          <h3 class="card-title">Strong Placement Game</h3>
+          <p class="card-desc">
+            Over 90% placement success with top recruiters hiring career-ready
+            graduates.
+          </p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card">
+          <div class="card-icon">
+            <img src="images/why6.webp" alt="Student Exchange Programme" />
+          </div>
+          <h3 class="card-title">Student Exchange Programme</h3>
+          <p class="card-desc">
+            Opportunities with Daito Bunka University, Help University of
+            Achievers and Rabat Business School for a competitive International
+            advantage that sets you apart.
+          </p>
         </div>
       </div>
+    </section>
+    <!-- section why stop from here  -->
 
-      <!-- Slide 2 -->
-      <div class="alumni-card">
-        <div class="alumni-photo">
-          <div class="alumni-photo-placeholder">
-            <img src="images/story.webp" alt="">
+    <!-- programm offered  -->
+    <section class="programs-section">
+      <h2>Programs Offered</h2>
+
+      <div class="tab-wrapper">
+        <!-- Tab Buttons -->
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-tab="mba">MBA</button>
+          <button class="tab-btn" data-tab="pgdm">PGDM</button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content-wrapper">
+          <!-- MBA Tab -->
+          <div class="tab-pane active" id="tab-mba">
+            <div class="prog-left">
+              <h2>MBA Programme</h2>
+              <p class="duration">Duration: 2 Years</p>
+
+              <p>
+                At ABBS, our MBA programme is designed to shape confident and
+                future-ready leaders. As one of the leading AICTE-approved and
+                NAAC 'A' Grade institutions in Bangalore, we combine academic
+                rigour with strong industry integration to ensure students
+                graduate career-ready.
+              </p>
+
+              <p>
+                Our MBA goes beyond classroom learning. Through internships,
+                live projects, corporate interactions, industry visits and
+                case-based learning, students gain hands-on exposure to real
+                business challenges. With dual specialisation options, global
+                immersion opportunities and value-added certifications, we
+                prepare graduates to thrive in dynamic corporate environments.
+              </p>
+
+              <p>
+                Backed by experienced faculty from academia and industry,
+                students receive personalised mentoring and strategic guidance
+                throughout their journey. Our strong placement record, with
+                leading MNCs, startups and reputed organisations recruiting
+                regularly, reflects our commitment to career outcomes.
+              </p>
+
+              <p class="eligibility">
+                <strong>Eligibility:</strong> Candidates must hold a recognised
+                graduate degree (10+2+3/4 pattern) with a minimum of 50%
+                aggregate marks (45% for SC/ST/Cat I).
+              </p>
+            </div>
+
+            <div class="prog-right">
+              <div class="specializations-box">
+                <h3>Specializations Offered</h3>
+                <ul class="program-list">
+                  <li>MBA in Finance</li>
+                  <li>MBA in Marketing</li>
+                  <li>MBA in HR</li>
+                  <li>
+                    Logistics and <br />
+                    Supply Chain Management
+                  </li>
+                  <li>Healthcare Management</li>
+                  <li>Business Analytics</li>
+                </ul>
+              </div>
+
+              <div class="note-card">
+                <p>
+                  Join ABBS and earn an MBA that blends knowledge, experience
+                  and leadership excellence.
+                </p>
+              </div>
+            </div>
           </div>
 
-        </div>
+          <!-- PGDM Tab -->
+          <div class="tab-pane" id="tab-pgdm">
+            <div class="prog-left">
+              <h2>PGDM Programme</h2>
+              <p class="duration">Duration: 2 Years</p>
 
-        <div class="alumni-content">
-          <h3>MBA Finance</h3>
-          <p class="designation">Senior Analyst, HDFC Bank</p>
-          <p>
-            My journey at Acharya Bangalore B-School has been transformational. The rigorous
-            curriculum and hands-on exposure to finance concepts prepared me well for the corporate
-            world. I am proud to represent the institution through my work at HDFC Bank.
-          </p>
-        </div>
-      </div>
+              <p>
+                At ABBS School of Management, the two-year AICTE-approved PGDM
+                programme is designed to develop future business leaders through
+                industry-focused learning. Ranked 21st among Outstanding
+                B-Schools of Excellence (CSR-GHRDC) and among the top PGDM
+                colleges in India, ABBS offers a dynamic, industry-aligned
+                curriculum.
+              </p>
 
-      <!-- Slide 3 -->
-      <div class="alumni-card">
-        <div class="alumni-photo">
-          <div class="alumni-photo-placeholder">
-            <img src="images/story.webp" alt="">
+              <p>
+                Students gain hands-on exposure through live projects, case
+                studies, internships, business simulations, and corporate
+                interactions. The programme also features global immersion
+                opportunities, specialised labs like Blockchain and Investment
+                Labs, research incubation, and six value-added certifications.
+              </p>
+
+              <p>
+                With experienced faculty, strong alumni networks, corporate
+                mentoring, and diverse specialisations including Business
+                Analytics, ABBS ensures graduates develop leadership, analytical
+                thinking, and career-ready skills for today’s competitive
+                business environment.
+              </p>
+
+              <!-- <p class="eligibility">
+                <strong>Eligibility:</strong> A recognised bachelor's degree
+                with minimum 50% marks (45% for SC/ST/Cat I). CAT / MAT / CMAT /
+                GMAT scores preferred.
+              </p> -->
+            </div>
+
+            <div class="prog-right">
+              <div class="specializations-box">
+                <h3>Specializations Offered</h3>
+                <ul class="program-list">
+                  <li>PGDM – Dual Specialisation</li>
+                  <li>PGDM Global</li>
+                  <li>PGDM BFSI</li>
+                  
+                </ul>
+              </div>
+
+              <!-- <div class="note-card">
+                <p>
+                  Join ABBS and earn a PGDM that opens doors to global
+                  opportunities and leadership roles.
+                </p>
+              </div> -->
+            </div>
+            
           </div>
-          <!-- <img src="images/alumni3.jpg" alt="Alumni Photo" /> -->
+        </div>
+        <!-- end tab-content-wrapper -->
+      </div>
+      <!-- end tab-wrapper -->
+    </section>
+    <!-- programm offered end  -->
+
+    <!-- scholorship opportunity start from here  -->
+    <section class="scholarship-section">
+      <h2>Scholarship Opportunities</h2>
+
+      <div class="school_card">
+        <div class="school_card-image">
+          <div class="school_img">
+            <img src="images/scholor.webp" alt="" />
+          </div>
         </div>
 
-        <div class="alumni-content">
-          <h3>BBA Human Resources</h3>
-          <p class="designation">HR Manager, Infosys</p>
+        <div class="school-card-content">
+          <h3>Information on Scholarships</h3>
           <p>
-            The college shaped my personality and professional outlook. The faculty was always
-            supportive and the practical projects gave me real-world exposure that no textbook
-            could provide. Today, I lead a team of 20 at Infosys, and I owe that to ABBS.
+            Dream big without financial stress! ABBS offers merit-based
+            scholarships covering up to 50% of tuition fees for eligible
+            students. Explore our scholarships and maximise your opportunity.
           </p>
         </div>
       </div>
+    </section>
 
+    <!-- scholorship opportunity start from here  -->
 
+    <!-- hiring partner start here  -->
 
-    </div>
-  </section>
-  <!-- alumini section end from here  -->
+    <section class="hiring-section">
+      <h2>hiring partners</h2>
 
-  <!-- admission section start from here  -->
+      <div class="owl-carousel owl-theme" id="hiringCarousel">
+        <!-- Replace src values with your actual logo image paths -->
 
-  <section class="admission_section">
-    <h2>Admission Process</h2>
-
-    <div class="process-wrapper">
-      <div class="process">
-
-        <div class="step">
-          <div class="circle">1</div>
-          <h4>Fill Online Application</h4>
-          <p>Completely fill the application form accurately.</p>
+        <div class="partner-item">
+          <img src="images/part1.webp" alt="Grant Thornton" />
         </div>
 
-        <div class="step">
-          <div class="circle">2</div>
-          <h4>Upload Required Documents</h4>
-          <p>Submit transcripts, ID proof and certificates.</p>
+        <div class="partner-item">
+          <img src="images/part2.webp" alt="Federal Bank" />
         </div>
 
-        <div class="step">
-          <div class="circle">3</div>
-          <h4>Appear for ABBSSAT Entrance Test</h4>
-          <p>Take the entrance exam as scheduled.</p>
+        <div class="partner-item">
+          <img src="images/part3.webp" alt="BSE" />
         </div>
 
-        <div class="step">
-          <div class="circle">4</div>
-          <h4>Attend Personal Interview</h4>
-          <p>Interact with the admission panel confidently.</p>
+        <div class="partner-item">
+          <img src="images/part4.webp" alt="PhonePe" />
         </div>
 
-        <div class="step">
-          <div class="circle">5</div>
-          <h4>Receive Admission Confirmation</h4>
-          <p>Await official selection and enrollment details.</p>
+        <div class="partner-item">
+          <img src="images/part5.webp" alt="J.P. Morgan" />
         </div>
 
-      </div>
-    </div>
-  </section>
-  <!-- admission section stop from here  -->
-
-<!-- bottom cta main  -->
-
-
-<section class="future_begins">
-<div class="main_future">
-  <!-- Student Image -->
-  <div class="hero-student">
-    <div class="student-future">
-      <img src="images/student.webp" alt="">
-      
-    </div>
-  </div>
-
-  <!-- Right Content -->
-  <div class="hero-future">
-    <!-- Countdown Pill -->
-    <div class="countdown-pill">
-      <div class="pill-icon">
-        <img src="images/click.png" alt="">
-      </div>
-      <div class="pill-label">
-        Round 3 Admissions
-        <span>Deadline:</span>
-      </div>
-      <div class="countdown-blocks">
-        <div class="cd-block">
-          <span class="cd-num" id="cd-days">00</span>
-          <span class="cd-label">Day</span>
+        <div class="partner-item">
+          <img src="images/part6.webp" alt="EY" />
         </div>
-        <div class="cd-block">
-          <span class="cd-num" id="cd-hrs">00</span>
-          <span class="cd-label">Hrs</span>
+         <div class="partner-item">
+          <img src="images/partner1.webp" alt="HDFC" />
         </div>
-        <div class="cd-block">
-          <span class="cd-num" id="cd-mins">00</span>
-          <span class="cd-label">Mins</span>
+         <div class="partner-item">
+          <img src="images/partner2.webp" alt="ICIC" />
         </div>
-        <div class="cd-block">
-          <span class="cd-num" id="cd-secs">00</span>
-          <span class="cd-label">Secs</span>
+         <div class="partner-item">
+          <img src="images/partner3.webp" alt="KPMG" />
+        </div>
+         <div class="partner-item">
+          <img src="images/partner5.webp" alt="PWC" />
+        </div>
+         <div class="partner-item">
+          <img src="images/partner6.webp" alt="CAMPGEMINI" />
+        </div>
+        <div class="partner-item">
+          <img src="images/partner7.webp" alt="AXIS BANK" />
+        </div>
+        <div class="partner-item">
+          <img src="images/partner8.webp" alt="DELOITE" />
+        </div>
+        <div class="partner-item">
+          <img src="images/partner9.webp" alt="KOTAK" />
         </div>
       </div>
+    </section>
+    <!-- hiring partner stop here  -->
+
+    <!-- alumini section start from here  -->
+    <section class="alumni-section">
+      <h2>Alumni stories</h2>
+
+      <div class="owl-carousel owl-theme" id="alumniCarousel">
+        <!-- Slide 1 -->
+        <div class="alumni-card">
+          <div class="alumni-photo">
+            <div class="alumni-photo-placeholder">
+              <img src="images/story.webp" alt="" />
+            </div>
+          </div>
+
+          <div class="alumni-content">
+            <h3>BBA Aviation Management</h3>
+            <p class="designation">Probationary Officer, South Indian Bank</p>
+            <p>
+              I enjoyed my studies as a student in Acharya Bangalore B-School. I
+              found my course "BBA Aviation Management" extremely interesting.
+              The independence the College gave me has helped me to achieve
+              success, as it enabled me to understand the importance of helping
+              to ensure that deadlines are handed on time.
+            </p>
+          </div>
+
+          <!-- Optional small avatar -->
+          <div class="alumni-avatar-small">
+            <!-- <img src="images/alumni1-avatar.jpg" alt="Avatar" /> -->
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="alumni-card">
+          <div class="alumni-photo">
+            <div class="alumni-photo-placeholder">
+              <img src="images/story.webp" alt="" />
+            </div>
+          </div>
+
+          <div class="alumni-content">
+            <h3>MBA Finance</h3>
+            <p class="designation">Senior Analyst, HDFC Bank</p>
+            <p>
+              My journey at Acharya Bangalore B-School has been
+              transformational. The rigorous curriculum and hands-on exposure to
+              finance concepts prepared me well for the corporate world. I am
+              proud to represent the institution through my work at HDFC Bank.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="alumni-card">
+          <div class="alumni-photo">
+            <div class="alumni-photo-placeholder">
+              <img src="images/story.webp" alt="" />
+            </div>
+            <!-- <img src="images/alumni3.jpg" alt="Alumni Photo" /> -->
+          </div>
+
+          <div class="alumni-content">
+            <h3>BBA Human Resources</h3>
+            <p class="designation">HR Manager, Infosys</p>
+            <p>
+              The college shaped my personality and professional outlook. The
+              faculty was always supportive and the practical projects gave me
+              real-world exposure that no textbook could provide. Today, I lead
+              a team of 20 at Infosys, and I owe that to ABBS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- alumini section end from here  -->
+
+    <!-- admission section start from here  -->
+
+    <section class="admission_section">
+      <h2>Admission Process</h2>
+
+      <div class="process-wrapper">
+        <div class="process">
+          <div class="step">
+            <div class="circle">1</div>
+            <h4>Fill Online Application</h4>
+            <p>Completely fill the application form accurately.</p>
+          </div>
+
+          <div class="step">
+            <div class="circle">2</div>
+            <h4>Upload Required Documents</h4>
+            <p>Submit transcripts, ID proof and certificates.</p>
+          </div>
+
+          <div class="step">
+            <div class="circle">3</div>
+            <h4>Appear for ABBSSAT Entrance Test</h4>
+            <p>Take the entrance exam as scheduled.</p>
+          </div>
+
+          <div class="step">
+            <div class="circle">4</div>
+            <h4>Attend Personal Interview</h4>
+            <p>Interact with the admission panel confidently.</p>
+          </div>
+
+          <div class="step">
+            <div class="circle">5</div>
+            <h4>Receive Admission Confirmation</h4>
+            <p>Await official selection and enrollment details.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- admission section stop from here  -->
+
+    <!-- bottom cta main  -->
+
+    <section class="future_begins">
+      <div class="main_future">
+        <!-- Student Image -->
+        <div class="hero-student">
+          <div class="student-future">
+            <img src="images/student.webp" alt="" />
+          </div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="hero-future">
+          <!-- Countdown Pill -->
+          <div class="countdown-pill">
+            <div class="pill-icon">
+              <img src="images/click.png" alt="" />
+            </div>
+            <div class="pill-label">
+              Round 3 Admissions
+              <span>Deadline:</span>
+            </div>
+            <div class="countdown-blocks">
+              <div class="cd-block">
+                <span class="cd-num" id="cd-days">00</span>
+                <span class="cd-label">Day</span>
+              </div>
+              <div class="cd-block">
+                <span class="cd-num" id="cd-hrs">00</span>
+                <span class="cd-label">Hrs</span>
+              </div>
+              <div class="cd-block">
+                <span class="cd-num" id="cd-mins">00</span>
+                <span class="cd-label">Mins</span>
+              </div>
+              <div class="cd-block">
+                <span class="cd-num" id="cd-secs">00</span>
+                <span class="cd-label">Secs</span>
+              </div>
+            </div>
+          </div>
+          <div class="content_inner_futture">
+            <h3>Your <spam>Future Begins</spam> Here!</h3>
+            <p>
+              Ready to turn ambition into achievement? This is your moment. Join
+              a community of future leaders, innovators and change-makers who
+              chose to level up their careers with ABBS.
+            </p>
+            <p class="hero-tagline">
+              Don't wait for opportunities –
+              <span class="highlight">Create them.</span>
+            </p>
+            <a href="#" class="btn-cta open-popup">Book Free Consultation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="floating-contact" bis_skin_checked="1">
+      <ul class="ulbtnn">
+        <li><a href="tel:+9118003099893" class="call">Call Now</a></li>
+        <li><a href="#" class="enquiry open-popup">Enquire Now</a></li>
+      </ul>
     </div>
-    <div class="content_inner_futture">
-    <h3>Your <spam>Future Begins</spam> Here!</h3>
-    <p>Ready to turn ambition into achievement? This is your moment. Join a community of future leaders, innovators and change-makers who chose to level up their careers with ABBS.</p>
-    <p class="hero-tagline">
-      Don't wait for opportunities – <span class="highlight">Create them.</span>
-    </p>
-    <a href="#" class="btn-cta">Book Free Consultation</a>
-  </div>
 
-  </div>
-</div>
-</section>
-<!-- bottom cta main  -->
+    <div class="popup-overlay" id="popup">
+      <div class="popup-box">
+        <button class="close-btn" id="closePopup">&times;</button>
 
+        <!-- Hubspot form container -->
+        <div id="hubspot-form"></div>
+      </div>
+    </div>
+    <!-- bottom cta main  -->
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script>
-  // Set your deadline date here
-  const deadline = new Date("2026-05-31T23:59:59").getTime();
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-  function updateCountdown() {
-    const now = new Date().getTime();
-    const diff = deadline - now;
+    <script src="//js.hsforms.net/forms/embed/v2.js"></script>
+    <script>
+      const a = document.querySelectorAll(".open-popup");
+      const popup = document.getElementById("popup");
+      const closeBtn = document.querySelector(".close-btn");
 
-    if (diff <= 0) {
-      document.getElementById('cd-days').textContent = '00';
-      document.getElementById('cd-hrs').textContent  = '00';
-      document.getElementById('cd-mins').textContent = '00';
-      document.getElementById('cd-secs').textContent = '00';
-      return;
-    }
+      a.forEach((button) => {
+        button.addEventListener("click", function (e) {
+          e.preventDefault();
+          popup.style.display = "flex";
 
-    const days  = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hrs   = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const mins  = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const secs  = Math.floor((diff % (1000 * 60)) / 1000);
-
-    document.getElementById('cd-days').textContent = String(days).padStart(2, '0');
-    document.getElementById('cd-hrs').textContent  = String(hrs).padStart(2, '0');
-    document.getElementById('cd-mins').textContent = String(mins).padStart(2, '0');
-    document.getElementById('cd-secs').textContent = String(secs).padStart(2, '0');
-  }
-
-  updateCountdown();
-  setInterval(updateCountdown, 1000);
-</script>
-  <script>
-    const tabBtns = document.querySelectorAll('.tab-btn');
-    const tabPanes = document.querySelectorAll('.tab-pane');
-
-    tabBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        // Remove active from all buttons
-        tabBtns.forEach(b => b.classList.remove('active'));
-        // Remove active from all panes
-        tabPanes.forEach(p => p.classList.remove('active'));
-
-        // Activate clicked tab
-        btn.classList.add('active');
-        const target = btn.getAttribute('data-tab');
-        document.getElementById('tab-' + target).classList.add('active');
-      });
-    });
-  </script>
-  <script>
-    $(document).ready(function () {
-      $("#hiringCarousel").owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 2500,
-        autoplayHoverPause: true,
-        smartSpeed: 700,
-        nav: false,
-        dots: false,
-        responsive: {
-          0: {
-            items: 2
-          },
-          480: {
-            items: 3
-          },
-          768: {
-            items: 4
-          },
-          1024: {
-            items: 6
+          if (!document.querySelector("#hubspot-form iframe")) {
+            hbspt.forms.create({
+              portalId: "",
+              formId: "",
+              region: "na1",
+              target: "#hubspot-form",
+            });
           }
-        }
+        });
       });
-    });
-  </script>
-  <script>
-    $(document).ready(function () {
-      $("#alumniCarousel").owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 2500,
-        autoplayHoverPause: true,
-        smartSpeed: 700,
-        margin:15,
-        nav: true,
-        dots: false,
-        responsive: {
-          0: {
-            items: 1
-          },
-          480: {
-            items: 1
-          },
-          768: {
-            items: 1
-          },
-          1024: {
-            items: 1
-          }
-        }
+
+      closeBtn.addEventListener("click", function () {
+        popup.style.display = "none";
       });
-    });
-  </script>
-  <script>
+    </script>
 
-const startDate = new Date("2026-03-01").getTime(); 
-const endDate = new Date("2026-03-31T23:59:59").getTime();
+    <script>
+      // Set your deadline date here
+      const deadline = new Date("2026-05-31T23:59:59").getTime();
 
-function updateProgressBar(){
+      function updateCountdown() {
+        const now = new Date().getTime();
+        const diff = deadline - now;
 
-  const now = new Date().getTime();
+        if (diff <= 0) {
+          document.getElementById("cd-days").textContent = "00";
+          document.getElementById("cd-hrs").textContent = "00";
+          document.getElementById("cd-mins").textContent = "00";
+          document.getElementById("cd-secs").textContent = "00";
+          return;
+        }
 
-  const totalTime = endDate - startDate;
-  const elapsed = now - startDate;
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hrs = Math.floor(
+          (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+        );
+        const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const secs = Math.floor((diff % (1000 * 60)) / 1000);
 
-  let progress = (elapsed / totalTime) * 100;
+        document.getElementById("cd-days").textContent = String(days).padStart(
+          2,
+          "0",
+        );
+        document.getElementById("cd-hrs").textContent = String(hrs).padStart(
+          2,
+          "0",
+        );
+        document.getElementById("cd-mins").textContent = String(mins).padStart(
+          2,
+          "0",
+        );
+        document.getElementById("cd-secs").textContent = String(secs).padStart(
+          2,
+          "0",
+        );
+      }
 
-  if(progress > 100) progress = 100;
-  if(progress < 0) progress = 0;
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+    </script>
+    <script>
+      const tabBtns = document.querySelectorAll(".tab-btn");
+      const tabPanes = document.querySelectorAll(".tab-pane");
 
-  document.getElementById("progressBar").style.width = progress + "%";
-}
+      tabBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          // Remove active from all buttons
+          tabBtns.forEach((b) => b.classList.remove("active"));
+          // Remove active from all panes
+          tabPanes.forEach((p) => p.classList.remove("active"));
 
-updateProgressBar();
-setInterval(updateProgressBar, 1000);
+          // Activate clicked tab
+          btn.classList.add("active");
+          const target = btn.getAttribute("data-tab");
+          document.getElementById("tab-" + target).classList.add("active");
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#hiringCarousel").owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 2500,
+          autoplayHoverPause: true,
+          smartSpeed: 700,
+          nav: false,
+          dots: false,
+          responsive: {
+            0: {
+              items: 2,
+            },
+            480: {
+              items: 3,
+            },
+            768: {
+              items: 4,
+            },
+            1024: {
+              items: 6,
+            },
+          },
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#alumniCarousel").owlCarousel({
+          loop: true,
+          autoplay: true,
+          autoplayTimeout: 2500,
+          autoplayHoverPause: true,
+          smartSpeed: 700,
+          margin: 15,
+          nav: true,
+          dots: false,
+          navText: [
+            "<img src='images/arrow_left.png' class='nav-img'>",
+            "<img src='images/arrow_rigth.png' class='nav-img'>",
+          ],
+          responsive: {
+            0: {
+              items: 1,
+            },
+            480: {
+              items: 1,
+            },
+            768: {
+              items: 1,
+            },
+            1024: {
+              items: 1,
+            },
+          },
+        });
+      });
+    </script>
+    <script>
+      const startDate = new Date("2026-03-01").getTime();
+      const endDate = new Date("2026-03-31T23:59:59").getTime();
 
-</script>
-</body>
+      function updateProgressBar() {
+        const now = new Date().getTime();
 
+        const totalTime = endDate - startDate;
+        const elapsed = now - startDate;
+
+        let progress = (elapsed / totalTime) * 100;
+
+        if (progress > 100) progress = 100;
+        if (progress < 0) progress = 0;
+
+        document.getElementById("progressBar").style.width = progress + "%";
+      }
+
+      updateProgressBar();
+      setInterval(updateProgressBar, 1000);
+    </script>
+  </body>
 </html>
